@@ -1,0 +1,26 @@
+<view class="ershou">
+  <scroll-view  class="book" scroll-y="true" style="height: 100vh;">
+ 
+    <view wx:for="{{books}}">
+      <image src="{{item.imagepath}}" mode="widthFix"></image>
+      <view class="text">
+        <text>名称：{{item.name}}</text>
+
+        <view class="pr">价格: {{item.price}}</view>
+
+        <text>交易方式: {{item.way}}</text>
+
+      </view>
+    </view>
+  </scroll-view>
+
+
+ <view class="bookmenu">
+  <scroll-view scroll-y="true" style="height: 100vh;">
+
+    <view class="le" hover-class="left">课内</view>
+    <view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view><view class="le" hover-class="left">课内</view>
+    
+  </scroll-view>
+ </view>
+</view>

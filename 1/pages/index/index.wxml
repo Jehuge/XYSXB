@@ -1,0 +1,35 @@
+<view class="body">
+  <view class="logo">
+    <image src="../image/logo.png" mode="widthFix"></image>
+  </view>
+
+  <swiper indicator-dots circular>
+    <swiper-item wx:for="{{swiperList}}" wx:key="id">
+      <image src="{{item.image}}"></image>
+    </swiper-item>
+  </swiper>
+ 
+  <view class="menu" scroll-y="true">
+
+    <navigator url="../ershou/ershou" hover-class="nav-hover">
+      <view class="ershou">
+        <image src="../image/circle.png" mode="widthFix"></image>
+        <view>闲置资料</view>
+      </view>
+    </navigator>
+
+    <view class="yan">
+      <image src="../image/hat.png" mode="widthFix"></image>
+      <view>考研</view>
+    </view>
+    <view class="zheng">
+      <image src="../image/cet.png" mode="widthFix"></image>
+      <view>考公</view>
+    </view>
+    <view class="fang">
+      <image src="../image/house.png" mode="widthFix"></image>
+      <view>租房</view>
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,29 @@
+.book image{
+  width: 10vh;
+ }
+.book{
+  display: flex;
+  left: 20vh;
+  position: relative;
+  
+}
+
+.pr{
+  color: rgb(28, 59, 235);
+}
+
+
+.bookmenu{
+  position: absolute;
+  width: 16vh;
+  display: flex;
+left: 0;
+top: 0;
+}
+.le{
+  height: 5vh;
+}
+.left{
+  background-color: skyblue;
+
+}

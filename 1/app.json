@@ -1,0 +1,55 @@
+{
+  "pages":[
+  
+   "pages/index/index",
+    "pages/logs/logs",
+   "pages/personal/personal",
+   "pages/buy/buy",
+   "pages/message/message"
+  ],
+  "tabBar": {
+    
+ "list":[
+      {
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "pages/image/home.png",
+    "selectedIconPath": "pages/image/home1.png"
+    },
+    {
+      "pagePath": "pages/buy/buy",
+      "text": "购物车",
+      "iconPath": "pages/image/buy (1).png",
+    "selectedIconPath": "pages/image/buy (2).png"
+    },    
+    {
+      "pagePath": "pages/message/message",
+      "text": "消息",
+      "iconPath": "pages/image/yonghu.png",
+      "selectedIconPath": "pages/image/yonghu.png"
+    },
+    {
+      "pagePath": "pages/personal/personal",
+      "text": "我",
+      "iconPath": "pages/image/yonghu.png",
+      "selectedIconPath": "pages/image/yonghu.png"
+    }
+
+  ],
+  "color": "#000000",
+  "selectedColor": "#0066ff"
+  },
+  "window":{
+   
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "navigationBarTitleText": "校园升学吧",
+   "navigationBarTextStyle": "white",
+   "enablePullDownRefresh": true,
+   "backgroundColor": "#efefef",
+   "backgroundTextStyle":"dark"
+
+
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
